@@ -1,3 +1,8 @@
+// question 1 star
+// ****
+// ****
+// ****
+
 for (i = 0; i <= 5; i++) {
   let row = "";
 
