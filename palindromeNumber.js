@@ -5,7 +5,7 @@
 // nuber 212 // true
 
 const palindrome = (x) => {
-  return x === +x.toString().split("").reverse().join("");
+  return x < 0 ? false : x === +x.toString().split("").reverse().join("");
 };
 const result = palindrome(121);
 console.log(result);
