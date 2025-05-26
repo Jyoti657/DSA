@@ -15,3 +15,10 @@ const fib = (n) => {
 
  const result=fib(10);
  console.log(result)
+
+ const recursionFib=(n)=>{
+    if(n<=1) return n;
+    return recursionFib(n-1)+recursionFib(n-2);
+ }
+ const recursionResult=recursionFib(15);
+ console.log(recursionResult)
