@@ -2,7 +2,7 @@
 // An agram  os word or phrase formed by the rearriging the letter of a different word or pharase , using all the original letter exaclity once 
 //   example input (s=anagram),(t=nagram); output -true
 // example input (s=car),(t=rat)=false;
-
+// this 1 Approach
 const anagramfunction=(s,t)=>{
     s=s.split("").sort().join("");
     t=t.split("").sort().join("");
