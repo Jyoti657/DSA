@@ -5,7 +5,7 @@ const user = {
   name: "mourya jyoti",
   age: 25,
 }
-delete user.name
+// delete user.name
  console.log(user.age);
  console.log(user);
  
@@ -19,6 +19,15 @@ delete user.name
     // firstname:"jyoti",
     [lastname]:firstname
  }
- console.log(user1);
+//  console.log(user1);
  
 //   for the access the dyamic values the  add [] the key this brackets
+
+// now the loop in  the objects
+
+//   for the object we are using the loop  for in  loop
+
+ for (k in user){
+    console.log(k);
+    
+ }
