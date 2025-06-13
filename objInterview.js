@@ -47,3 +47,14 @@ console.log(nums);
 // In arrow functions, strict mode is 
 // more enforced and doesn’
 // t tolerate undeclared variables.
+
+// question 3
+//   what is the outpu of the following code
+
+const a={}
+const b={k:"hello"}
+const c={k:"morning"}
+
+a[b]=123;
+a[c]=456;
+ console.log(a[c])
