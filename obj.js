@@ -24,7 +24,7 @@ const user = {
 //   for the access the dyamic values the  add [] the key this brackets
 
 // now the loop in  the objects
-
+"title"
 //   for the object we are using the loop  for in  loop
 
  for (k in user){

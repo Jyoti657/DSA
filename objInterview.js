@@ -58,3 +58,38 @@ const c={k:"morning"}
 a[b]=123;
 a[c]=456;
  console.log(a[c])
+//   Reason the beind this the object take
+// // the last value of the key if the key is same
+// in the object
+//   the output is 456
+//   because the object is reference type
+
+//  question 4
+//    what is the differnce between JSON.strigify and JSON.parse
+
+const user={
+    name: "mourya jyoti",
+    age: 25,
+    isActive: true,
+}
+console.log(JSON.stringify(user));
+
+console.log(JSON.parse(JSON.stringify(user)));
+
+//using  the JSON.stringify converts a JavaScript object into a JSON string,
+// while JSON.parse converts a JSON string back into a JavaScript object.
+// JSON.stringify is used to serialize an object into a string format, 
+//  storing the the loacal
+
+
+//  question5 
+//   what is the output of the following code
+console.log([..."hello"]);
+//   this spread with string the char
+//   the output is ['h', 'e', 'l', 'l', 'o']
+
+//  question 6
+ const user2={user:"jay",age:21}
+ const user3={adamin:true,...user2}
+ console.log(user3);
+ 
