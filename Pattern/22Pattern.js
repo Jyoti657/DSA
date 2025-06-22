@@ -143,3 +143,18 @@ for (let i = 1; i <= 2 * n - 1; i++) {
 }
 
 console.log(" 12 //////////////////////////////");
+for (let i = 0; i <= n; i++) {
+  let space = 2 * (n - 1);
+  let row = " ";
+  for (let j = 1; j <= i; j++) {
+    row += j;
+  }
+  for (let s = 1; s <= 2 * (n - i); s++) {
+    row += " ";
+  }
+
+  for (let j = i; j >= 1; j--) {
+    row += j;
+  }
+  console.log(row);
+}
