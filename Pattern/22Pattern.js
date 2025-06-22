@@ -53,3 +53,80 @@ for (let i = 1; i <= n; i++) {
   }
   console.log(row);
 }
+
+console.log(" 7 //////////////////////////////");
+
+for (let i = 0; i <= n; i++) {
+  //  space
+  let row = "";
+  for (let j = 0; j < n - i - 1; j++) {
+    row += " ";
+  }
+  //   start
+  for (let j = 0; j < 2 * i + 1; j++) {
+    row += "*";
+  }
+  //  space
+  for (let j = 0; j < n - i - 1; j++) {
+    row += " ";
+  }
+  console.log(row);
+}
+console.log(" 8 //////////////////////////////");
+
+for (let i = 0; i <= n; i++) {
+  let row = "";
+  for (let j = 0; j < i; j++) {
+    row += " ";
+  }
+  for (let j = 0; j < 2 * n - (2 * i + 1); j++) {
+    row += "*";
+  }
+
+  for (let j = 0; j < i; j++) {
+    row += "";
+  }
+  console.log(row);
+}
+
+console.log(" 9 //////////////////////////////");
+
+for (let i = 0; i < n; i++) {
+  let row = "";
+  for (let j = 0; j < n - i - 1; j++) {
+    row += " ";
+  }
+
+  for (let j = 0; j < 2 * i + 1; j++) {
+    row += "*";
+  }
+  for (let j = 0; j < n - i - 1; j++) {
+    row += " ";
+  }
+  console.log(row);
+}
+for (let i = 0; i <= n; i++) {
+  let row = "";
+  for (let j = 0; j < i; j++) {
+    row += " ";
+  }
+  for (let j = 0; j < 2 * n - (2 * i + 1); j++) {
+    row += "*";
+  }
+
+  for (let j = 0; j < i; j++) {
+    row += "";
+  }
+  console.log(row);
+}
+
+console.log(" 10 //////////////////////////////");
+for (let i = 0; i <= 2 * n - 1; i++) {
+  let row = "";
+  let start = i;
+  if (i > n) start = 2 * n - i;
+  for (let j = 1; j <= start; j++) {
+    row += "*";
+  }
+  console.log(row);
+}
