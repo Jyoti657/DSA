@@ -130,3 +130,16 @@ for (let i = 0; i <= 2 * n - 1; i++) {
   }
   console.log(row);
 }
+console.log(" 11 //////////////////////////////");
+
+for (let i = 1; i <= 2 * n - 1; i++) {
+  let start = i % 2 === 0 ? 0 : 1;
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row += start;
+    start = 1 - start;
+  }
+  console.log(row);
+}
+
+console.log(" 12 //////////////////////////////");
